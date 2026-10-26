@@ -93,7 +93,7 @@ export default function CTASection() {
             ))}
           </div>
           <p className="font-condensed text-xs uppercase tracking-[0.18em] text-cream/60">
-            Mais de 32 produtos no ar com a nossa assinatura
+            Mais de 7 produtos no ar com a nossa assinatura
           </p>
         </motion.div>
       </div>
