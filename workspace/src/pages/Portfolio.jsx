@@ -6,7 +6,7 @@ function Project({ data, reverse }) {
   return (
     <article className="border-t-2 border-line py-16 md:py-24">
       <div className={`grid items-center gap-10 md:grid-cols-2 md:gap-16 ${reverse ? 'md:[&>div:first-child]:order-2' : ''}`}>
-        <div className={`grid gap-2 ${data.images.length > 1 ? 'grid-cols-1 md:grid-cols-2' : ''}`}>
+        <div className="grid grid-cols-1 gap-4">
           {data.images.map((src, i) => (
             <div key={src} className="overflow-hidden rounded-frame border-2 border-line bg-canvas-deep">
               <img
